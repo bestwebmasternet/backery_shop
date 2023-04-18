@@ -64,13 +64,22 @@ li:last-child {
 	padding-right: 0px;
 }
 
+/* Правило для посилань на сайті */
+a {
+	color: black;
+}
+
+a:hover {
+	color: #f15b40;
+
+}
 /* Правило для основних section */
 section {
 	display: flex;
 	justify-content: center;
 }
 
-/* Головний слайд -фото булки */
+/* Cлайд -фото булки */
 .home_slide {
 	height: 640px;
 	width: 1440px;
@@ -79,8 +88,8 @@ section {
 	background-position: center center;
 	background-repeat: no-repeat;
   }
-  /*Головні  іконки на сайті*/
   
+  /*Іконки на сайті*/
 .icon_cakes {
 	margin-top: 20px; 
 	margin-bottom: 20px;
@@ -95,4 +104,23 @@ section {
 .icon_cakes_img:last-child {
 	margin-right: 0px;
 
+}
+
+/* Текста про "Випечку" */
+h1 {
+ font-size: 96px;
+ text-align: center;
+}
+
+P {
+	font-size: 18px;
+	text-align: center;
+}
+
+.container_p {
+	width: 1000px;
+}
+
+.color_span {
+	color: #f15b40;
 }
