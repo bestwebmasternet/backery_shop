@@ -77,6 +77,7 @@ a:hover {
 section {
 	display: flex;
 	justify-content: center;
+	align-items: stretch;
 }
 
 /* Cлайд -фото булки */
@@ -87,6 +88,7 @@ section {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
+	border-radius: 5%;
   }
   
   /*Іконки на сайті*/
@@ -108,8 +110,13 @@ section {
 
 /* Текста про "Випечку" */
 h1 {
- font-size: 96px;
- text-align: center;
+    font-size: 96px;
+    text-align: center;
+}
+
+h2 {
+	font-size: 36px;
+	text-transform: uppercase;
 }
 
 P {
@@ -117,10 +124,25 @@ P {
 	text-align: center;
 }
 
+.container_title {
+	margin-bottom: 20px;
+
+}
+
 .container_p {
 	width: 1000px;
+	margin-bottom: 20px;
 }
 
 .color_span {
 	color: #f15b40;
+}
+
+/* Контеінер мапи*/
+.container_map {
+	margin-bottom: 20px;
+}
+
+.footer_menu {
+padding-bottom: 20px;
 }
