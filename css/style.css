@@ -79,4 +79,20 @@ section {
 	background-position: center center;
 	background-repeat: no-repeat;
   }
+  /*Головні  іконки на сайті*/
   
+.icon_cakes {
+	margin-top: 20px; 
+	margin-bottom: 20px;
+}
+
+.icon_cakes_img {
+	margin-right: 76px;
+	height: 290px;
+	width: 290px;
+}
+
+.icon_cakes_img:last-child {
+	margin-right: 0px;
+
+}
