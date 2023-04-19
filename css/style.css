@@ -102,13 +102,15 @@ section {
 	word-wrap: break-word;
 	width: 420px;
 	height: 190px;
-	padding: 17px 28px 9px 28px;
+	padding: 17px 28px 0px 28px;
 	border: double 2px #000;
 	font-size: 36px;
 	font-family: font-family: 'Philosopher';
+	margin: 400px 0 0 800px;
 
   }
   .smal_text_special_offer {
+    margin: 9px;
     font-size: 12px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
