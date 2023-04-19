@@ -95,26 +95,24 @@ section {
   }
   
   /* Блок спеціального замовлення */
-  .special_offer {
+	.special_offer {
     display: block;
     text-align: center;
-	background-color: #f15b40;
-	word-wrap: break-word;
+	background: rgb(244,213,178);
+	background: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8) 100%);
 	width: 420px;
 	height: 190px;
-	padding: 17px 28px 0px 28px;
-	border: double 2px #000;
-	font-size: 36px;
-	font-family: font-family: 'Philosopher';
-	margin: 400px 0 0 800px;
-
+	padding: 22px 28px 0px 28px;
+	font-size: 34px;
+	font-family: 'Philosopher';
+	margin: 349px 0 0 730px;
+	border: dotted 2px #000;
   }
   .smal_text_special_offer {
     margin: 9px;
     font-size: 12px;
-    text-align: center;
+    text-align: justify;
     font-family: 'Roboto', sans-serif;
-  
   }
 
   
