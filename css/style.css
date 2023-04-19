@@ -94,6 +94,28 @@ section {
 	border-radius: 5%;
   }
   
+  /* Блок спеціального замовлення */
+  .special_offer {
+    display: block;
+    text-align: center;
+	background-color: #f15b40;
+	word-wrap: break-word;
+	width: 420px;
+	height: 190px;
+	padding: 17px 28px 9px 28px;
+	border: double 2px #000;
+	font-size: 36px;
+	font-family: font-family: 'Philosopher';
+
+  }
+  .smal_text_special_offer {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+
+  
   /*Іконки на сайті*/
 .icon_cakes {
 	margin-top: 20px; 
