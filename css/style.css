@@ -52,7 +52,8 @@ nav {
 	justify-content: center;
 	align-items: stretch;
 	font-size: 18px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
 	margin: 20px 0 20px 0;
 }
 
@@ -111,19 +112,24 @@ section {
 }
 
 /* Текста про "Випечку" */
+
 h1 {
     font-size: 96px;
     text-align: center;
+    font-family: 'Philosopher';
 }
 
 h2 {
 	font-size: 36px;
 	text-transform: uppercase;
+	font-family: 'Philosopher';
 }
+
 
 P {
 	font-size: 18px;
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
 
 .container_title {
@@ -147,7 +153,7 @@ P {
 
 /* Лінія розділювач */
 hr {
-	border-top: 1px solid #000;
+	border-top: 1px solid #999;
 	width: 900px;
 	margin: 0 auto;
   }
