@@ -56,6 +56,10 @@ nav {
 	font-weight: 600;
 	margin: 20px 0 20px 0;
 }
+ul {
+	text-align: center;
+	display: inline;
+}
 
 li {
 	padding-left: 0px;
@@ -95,7 +99,7 @@ section {
   }
   
   /* Блок спеціального замовлення */
-	.special_offer {
+.special_offer {
     display: block;
 	width: 420px;
 	height: 190px;
@@ -107,7 +111,7 @@ section {
 	font-family: 'Philosopher';
 	margin: 350px 0 0 730px;
   }
-  .smal_text_special_offer {
+.smal_text_special_offer {
     margin: 9px;
     font-size: 12px;
     text-align: justify;
@@ -161,6 +165,7 @@ P {
 
 .container_title {
 	margin-bottom: 20px;
+	margin-top: 26px;
 
 }
 
@@ -194,3 +199,34 @@ footer {
 .footer_menu {
 	padding-bottom: 20px;
 }
+
+/* Форма замовлення */
+label {
+	color: #6d1405;
+	font-size: 26px;
+	font-style: normal;
+	font-family: 'Philosopher', sans-serif;
+	padding-left: 15px;
+}
+
+input {
+	display: block;
+	height: 50px;
+	width: 750px;
+	border-radius: 10px;
+	border: solid 2px #f15b40;
+	}
+
+input {
+		display: block;
+		height: 50px;
+		width: 750px;
+		border-radius: 10px;
+		}
+
+.contact_form {
+text-align: left;
+padding-bottom: 40px;
+
+}
+
