@@ -215,18 +215,46 @@ input {
 	width: 750px;
 	border-radius: 10px;
 	border: solid 2px #f15b40;
+	margin-bottom: 12px;
 	}
+	
+	input:last-child {
+		margin-bottom: 0;
+	  }
+	  input[type="submit"][value="Відправити"] {
+	    margin-top: 10px;
+		color: white;
+		background-color: #f15b40;;
+		font-size: 18px;
+		font-family: 'Robot', sans-serif;
+	  }
+	  input[type="submit"][value="Відправити"]:hover {
+	    margin-top: 10px;
+		color: white;
+		background-color: #ff8a75;;
+		font-size: 18px;
+		font-family: 'Robot', sans-serif;
+	  }
+	  
 
-input {
-		display: block;
-		height: 50px;
-		width: 750px;
-		border-radius: 10px;
-		}
+textarea {
+	display: block;
+	height: 300px;
+	width: 750px;
+	border-radius: 5px;
+	border: solid 2px #f15b40;
+}
+
+textarea:hover {
+	display: block;
+	height: 300px;
+	width: 750px;
+	border-radius: 10px;
+	border: solid 2px #ff8b55;
+	}
 
 .contact_form {
 text-align: left;
 padding-bottom: 40px;
-
 }
 
