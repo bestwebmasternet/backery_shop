@@ -97,18 +97,15 @@ section {
   /* Блок спеціального замовлення */
 	.special_offer {
     display: block;
+	width: 420px;
+	height: 190px;
     text-align: center;
 	background: rgb(244,213,178);
 	background: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8) 100%);
-	width: 420px;
-	height: 190px;
 	padding: 22px 28px 0px 28px;
 	font-size: 34px;
 	font-family: 'Philosopher';
-	position: relative;
-	top: 349px;
-	left: 730px;
-	border: dotted 2px #000;
+	margin: 350px 0 0 730px;
   }
   .smal_text_special_offer {
     margin: 9px;
@@ -116,7 +113,13 @@ section {
     text-align: justify;
     font-family: 'Roboto', sans-serif;
   }
-
+.border_position {
+	width: 378px;
+	height: 158px;
+	border: solid 2px #000;
+	margin-top: -174px;
+	margin-left: 751px;;
+}
   
   /*Іконки на сайті*/
 .icon_cakes {
