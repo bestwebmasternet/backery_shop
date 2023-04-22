@@ -254,7 +254,20 @@ textarea:hover {
 	}
 
 .contact_form {
-text-align: left;
-padding-bottom: 40px;
+	text-align: left;
+	padding-bottom: 40px;
 }
 
+/* Сторінка про нас */
+/* -------------------------------------------------------- */
+.about_title {
+	margin-top: 50px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.about_text {
+	margin-top: 50px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
