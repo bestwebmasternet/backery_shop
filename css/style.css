@@ -148,19 +148,30 @@ h1 {
     font-size: 96px;
     text-align: center;
     font-family: 'Philosopher';
+	margin-bottom: 50px;
 }
 
 h2 {
 	font-size: 36px;
 	text-transform: uppercase;
 	font-family: 'Philosopher';
+	margin-bottom: 50px;
 }
 
+h3 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: 'Philosopher';
+	margin-bottom: 50px;
+}
 
 P {
 	font-size: 18px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 50px;
 }
 
 .container_title {
@@ -260,18 +271,6 @@ textarea:hover {
 
 /* Сторінка про нас */
 /* -------------------------------------------------------- */
-.about_title {
-	margin-top: 50px;
-	margin-right: 10%;
-	margin-left: 10%;
-}
-
-.about_text {
-	margin-top: 50px;
-	margin-right: 20%;
-	margin-left: 20%;
-	margin-bottom: 50px;
-}
 
 .about_img_wrapper {
 	margin-bottom: 50px;
@@ -281,3 +280,14 @@ textarea:hover {
 .about_img {
 	border-radius: 20px;
 }
+
+/* Сторінка контактів */
+/* -------------------------------------------------------- */
+.contact_info {
+	display: flex;
+	justify-content: space-around;
+	white-space: pre-line;
+
+
+}
+
