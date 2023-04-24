@@ -307,6 +307,39 @@ textarea:hover {
 	margin: 10px 10px 10px 10px;
 }
 
+/* Фрейм мапи */
 iframe {
 	border-radius: 20px;
+}
+
+/* Меню випечки, таблиця */
+table {
+	width: 60%;
+	border-collapse: separate;
+	border: 2px solid black;
+}
+th, td {
+	padding: 8px;
+	text-align: left;
+	border: 1px solid black;
+}
+tr:hover {
+	background-color: #ffae00;
+}
+@media screen and (max-width: 600px) {
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+	th {
+		text-align: center;
+	}
+	td {
+		text-align: center;
+		border-bottom: none;
+	}
+	td:before {
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+	}
 }
