@@ -163,7 +163,7 @@ h3 {
 	font-size: 16px;
 	text-transform: uppercase;
 	font-family: 'Philosopher';
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 P {
@@ -301,4 +301,8 @@ textarea:hover {
 	font-weight: 700;
 	font-style: italic;
 
+}
+
+.soc_icons {
+	margin: 10px 10px 10px 10px;
 }
