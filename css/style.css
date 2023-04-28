@@ -348,7 +348,7 @@ tr:hover {
 }
 
 /* Сторінка новин */
-main {
+.main-news {
 	background-image: url(/img/news_back.jpg);
 	height: 1300px;
 }
