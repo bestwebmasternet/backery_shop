@@ -343,3 +343,11 @@ tr:hover {
 		font-weight: bold;
 	}
 }
+
+/* Сторінка новин */
+.news {
+	background-image: url(/img/news_back.jpg);
+	height: 2500px;
+	
+
+}
