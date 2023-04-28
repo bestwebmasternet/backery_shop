@@ -348,5 +348,12 @@ tr:hover {
 .news {
 	background-image: url(/img/news_back.jpg);
 	height: 2500px;
-	
+}
+
+.section-news__block {
+	width: 420px;
+	height: 190px;
+	background: linear-gradient(180deg, rgb(244, 213, 178,0.8 )0, rgb(234, 156, 65,0.8)100%);
+	border-radius: 10px;
+	margin: 20px;
 }
